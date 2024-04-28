@@ -34,6 +34,7 @@
 		D8DCCFD42BDE04500011FC7D /* DueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD32BDE04500011FC7D /* DueDate.swift */; };
 		D8DCCFD62BDE04C00011FC7D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD52BDE04C00011FC7D /* Date+Extensions.swift */; };
 		D8DCCFD82BDE0BBD0011FC7D /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */; };
+		D8DCCFDA2BDE0D010011FC7D /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD92BDE0D010011FC7D /* DueDateSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		D8DCCFD32BDE04500011FC7D /* DueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDate.swift; sourceTree = "<group>"; };
 		D8DCCFD52BDE04C00011FC7D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
+		D8DCCFD92BDE0D010011FC7D /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */,
 				D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */,
 				D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */,
+				D8DCCFD92BDE0D010011FC7D /* DueDateSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				D8019CEA2BD6FDC8009F4C80 /* AddNewListView.swift in Sources */,
 				D8019CEC2BD6FDC8009F4C80 /* MyListsView.swift in Sources */,
 				D8019CE02BD6FDC8009F4C80 /* NSColorTransformer.swift in Sources */,
+				D8DCCFDA2BDE0D010011FC7D /* DueDateSelectionView.swift in Sources */,
 				D8019CED2BD6FDC8009F4C80 /* SideBarView.swift in Sources */,
 				D8DCCFD22BDE03A70011FC7D /* MyListItemViewModel.swift in Sources */,
 				D8DCCFD82BDE0BBD0011FC7D /* AddNewListItemView.swift in Sources */,
