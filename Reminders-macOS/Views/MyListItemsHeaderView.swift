@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct MyListItemsHeaderView: View {
+    var name: String
+    var count: Int
+    var color: Color
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(name)
+                .font(.system(size: 28))
+                .fontWeight(.bold)
+                .foregroundStyle(color)
+                .padding()
+            
+            Spacer()
+            Text("\(count)")
+                .font(.system(size: 32))
+                .foregroundStyle(color)
+                .padding()
+        }
     }
 }
 
 #Preview {
-    MyListItemsHeaderView()
+    MyListItemsHeaderView(name: "Groceries", count: 6, color: .red)
 }
