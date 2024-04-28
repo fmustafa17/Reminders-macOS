@@ -29,6 +29,7 @@
 		D8019CEC2BD6FDC8009F4C80 /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8019CDA2BD6FDC8009F4C80 /* MyListsView.swift */; };
 		D8019CED2BD6FDC8009F4C80 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8019CDB2BD6FDC8009F4C80 /* SideBarView.swift */; };
 		D8DCCFCE2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */; };
+		D8DCCFD02BDE00500011FC7D /* MyListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		D8019CDB2BD6FDC8009F4C80 /* SideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		D817C1D12BD7009C00B04D59 /* Reminders-macOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reminders-macOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
+		D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				D8019CDA2BD6FDC8009F4C80 /* MyListsView.swift */,
 				D8019CDB2BD6FDC8009F4C80 /* SideBarView.swift */,
 				D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */,
+				D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				D8019CDF2BD6FDC8009F4C80 /* RemindersModel.xcdatamodeld in Sources */,
 				D8019CC02BD6FD99009F4C80 /* RemindersModel.xcdatamodeld in Sources */,
 				D8019CE92BD6FDC8009F4C80 /* HomeScreen.swift in Sources */,
+				D8DCCFD02BDE00500011FC7D /* MyListItemsView.swift in Sources */,
 				D8019CE72BD6FDC8009F4C80 /* MyListViewModel.swift in Sources */,
 				D8DCCFCE2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift in Sources */,
 				D8019CE22BD6FDC8009F4C80 /* Constants.swift in Sources */,
