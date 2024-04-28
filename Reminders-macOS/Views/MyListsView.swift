@@ -23,7 +23,13 @@ struct MyListsView: View {
                 ForEach(viewModel.myLists) { myList in
                     
                     NavigationLink {
-                        MyListItemsHeaderView()
+                        MyListItemsHeaderView(
+                            name: myList.name,
+                            count: 7,
+                            color: myList.color
+                        )
+                        
+                        MyListItemsView()
                     } label : {
                         HStack {
                             Image(systemName: "line.3.horizontal.circle.fill")
