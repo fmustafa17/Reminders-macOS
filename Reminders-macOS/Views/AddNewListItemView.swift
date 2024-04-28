@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct AddNewListItemView: View {
+    
+    @State private var title: String = ""
+    @State private var dueDate: DueDate?
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            HStack(alignment: .center) {
+                Image(systemName: "circle")
+                    .font(.system(size: 14))
+                    .opacity(0.2)
+                TextField("", text: $title)
+                
+                Text("Notes")
+                    .opacity(0.2)
+                    .padding(.leading, 30)
+                
+                HStack {
+                    Button("Save") {
+                        
+                    }
+                }
+                .padding()
+            }
+        }
     }
 }
 
