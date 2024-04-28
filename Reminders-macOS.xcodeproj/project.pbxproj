@@ -33,6 +33,7 @@
 		D8DCCFD22BDE03A70011FC7D /* MyListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD12BDE03A70011FC7D /* MyListItemViewModel.swift */; };
 		D8DCCFD42BDE04500011FC7D /* DueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD32BDE04500011FC7D /* DueDate.swift */; };
 		D8DCCFD62BDE04C00011FC7D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD52BDE04C00011FC7D /* Date+Extensions.swift */; };
+		D8DCCFD82BDE0BBD0011FC7D /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		D8DCCFD12BDE03A70011FC7D /* MyListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemViewModel.swift; sourceTree = "<group>"; };
 		D8DCCFD32BDE04500011FC7D /* DueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDate.swift; sourceTree = "<group>"; };
 		D8DCCFD52BDE04C00011FC7D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				D8019CDB2BD6FDC8009F4C80 /* SideBarView.swift */,
 				D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */,
 				D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */,
+				D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				D8019CE02BD6FDC8009F4C80 /* NSColorTransformer.swift in Sources */,
 				D8019CED2BD6FDC8009F4C80 /* SideBarView.swift in Sources */,
 				D8DCCFD22BDE03A70011FC7D /* MyListItemViewModel.swift in Sources */,
+				D8DCCFD82BDE0BBD0011FC7D /* AddNewListItemView.swift in Sources */,
 				D8019CE62BD6FDC8009F4C80 /* MyListsViewModel.swift in Sources */,
 				D8019CEB2BD6FDC8009F4C80 /* ColorListView.swift in Sources */,
 			);
