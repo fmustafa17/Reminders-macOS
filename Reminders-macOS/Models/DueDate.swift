@@ -31,5 +31,23 @@ extension DueDate {
     var title: String {
         self.value.formatAsString
     }
+    
+    var isPastDue: Bool {
+        value < Date()
+    }
+    
+    static func from(value: Date) -> DueDate {
+        let calendar = NSCalendar.current
+        
+        if calendar.isDateInToday(value) {
+            return DueDate.today
+        } else if calendar.isDateInTomorrow(value) {
+            return DueDate.tomorrow
+        } else if calendar.isDateInYesterday(value) {
+            return DueDate.yesterday
+        }
+        
+        return DueDate.custom(value)
+    }
 
 }
