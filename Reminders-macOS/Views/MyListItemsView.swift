@@ -13,9 +13,9 @@ struct MyListItemsView: View {
             List(1...10, id: \.self) { index in
                 Text("\(index)")
             }
-            Spacer()
-            AddNewListItemView()
+            
         }
+        AddNewListItemView()
     }
 }
 
