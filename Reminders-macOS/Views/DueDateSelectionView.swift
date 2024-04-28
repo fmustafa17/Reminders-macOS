@@ -25,7 +25,7 @@ struct DueDateSelectionView: View {
                 // action
                 dueDate = .tomorrow
             } label: {
-                Text("\(Date.today.formatAsString)")
+                Text("\(Date.tomorrow.formatAsString)")
             }
             
             Button{
