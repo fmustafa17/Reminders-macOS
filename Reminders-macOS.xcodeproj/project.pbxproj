@@ -30,6 +30,7 @@
 		D8019CED2BD6FDC8009F4C80 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8019CDB2BD6FDC8009F4C80 /* SideBarView.swift */; };
 		D8DCCFCE2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */; };
 		D8DCCFD02BDE00500011FC7D /* MyListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */; };
+		D8DCCFD22BDE03A70011FC7D /* MyListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD12BDE03A70011FC7D /* MyListItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		D817C1D12BD7009C00B04D59 /* Reminders-macOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reminders-macOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		D8DCCFCD2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
 		D8DCCFCF2BDE00500011FC7D /* MyListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsView.swift; sourceTree = "<group>"; };
+		D8DCCFD12BDE03A70011FC7D /* MyListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				D8019CD02BD6FDC8009F4C80 /* AddNewListViewModel.swift */,
 				D8019CD12BD6FDC8009F4C80 /* MyListsViewModel.swift */,
 				D8019CD22BD6FDC8009F4C80 /* MyListViewModel.swift */,
+				D8DCCFD12BDE03A70011FC7D /* MyListItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				D8019CEC2BD6FDC8009F4C80 /* MyListsView.swift in Sources */,
 				D8019CE02BD6FDC8009F4C80 /* NSColorTransformer.swift in Sources */,
 				D8019CED2BD6FDC8009F4C80 /* SideBarView.swift in Sources */,
+				D8DCCFD22BDE03A70011FC7D /* MyListItemViewModel.swift in Sources */,
 				D8019CE62BD6FDC8009F4C80 /* MyListsViewModel.swift in Sources */,
 				D8019CEB2BD6FDC8009F4C80 /* ColorListView.swift in Sources */,
 			);
