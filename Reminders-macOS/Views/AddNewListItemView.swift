@@ -25,6 +25,14 @@ struct AddNewListItemView: View {
                     .padding(.leading, 30)
                 
                 HStack {
+                    DueDateSelectionView(dueDate: $dueDate)
+                    
+                    if dueDate != nil {
+                        Button("Clear") {
+                            dueDate = nil
+                        }
+                    }
+                    
                     Button("Save") {
                         
                     }
