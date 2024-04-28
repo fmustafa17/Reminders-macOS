@@ -20,12 +20,37 @@ struct DueDateSelectionView: View {
             } label: {
                 Text("\(Date.today.formatAsString)")
             }
+            
+            Button{
+                // action
+                dueDate = .tomorrow
+            } label: {
+                Text("\(Date.today.formatAsString)")
+            }
+            
+            Button{
+                // action
+                showCalandar = true
+            } label: {
+                Text("Custom")
+            }
         } label: {
             Label(dueDate == nil ? "Add Date:" : dueDate!.title, systemImage: "calendar")
         }
+        .menuStyle(.borderedButton)
+        .fixedSize()
+        .popover(isPresented: $showCalandar, content: {
+            DatePicker("Custom", selection: $selectedDate, displayedComponents: .date)
+                .labelsHidden()
+                .datePickerStyle(.graphical)
+                .onChange(of: selectedDate) { newValue in
+                    dueDate = .custom(newValue)
+                    showCalandar = false
+                }
+        })
     }
 }
 
 #Preview {
-    DueDateSelectionView(dueDate: nil)
+    DueDateSelectionView(dueDate: .constant(nil))
 }
