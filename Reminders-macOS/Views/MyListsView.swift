@@ -30,7 +30,11 @@ struct MyListsView: View {
                         )
                         
                         MyListItemsView(onItemAdded: { title, dueDate in
-                            
+                            viewModel.saveTo(
+                                list: myList,
+                                title: title,
+                                dueDate: dueDate
+                            )
                         })
                     } label : {
                         HStack {

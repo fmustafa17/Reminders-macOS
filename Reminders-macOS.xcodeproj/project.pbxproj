@@ -35,6 +35,7 @@
 		D8DCCFD62BDE04C00011FC7D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD52BDE04C00011FC7D /* Date+Extensions.swift */; };
 		D8DCCFD82BDE0BBD0011FC7D /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */; };
 		D8DCCFDA2BDE0D010011FC7D /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFD92BDE0D010011FC7D /* DueDateSelectionView.swift */; };
+		D8DCCFDC2BE1F0460011FC7D /* MyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DCCFDB2BE1F0460011FC7D /* MyListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		D8DCCFD52BDE04C00011FC7D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		D8DCCFD72BDE0BBD0011FC7D /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
 		D8DCCFD92BDE0D010011FC7D /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
+		D8DCCFDB2BE1F0460011FC7D /* MyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				D8019CCD2BD6FDC8009F4C80 /* BaseModel.swift */,
 				D8019CCE2BD6FDC8009F4C80 /* MyList.swift */,
 				D8DCCFD32BDE04500011FC7D /* DueDate.swift */,
+				D8DCCFDB2BE1F0460011FC7D /* MyListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				D8019CC02BD6FD99009F4C80 /* RemindersModel.xcdatamodeld in Sources */,
 				D8019CE92BD6FDC8009F4C80 /* HomeScreen.swift in Sources */,
 				D8DCCFD02BDE00500011FC7D /* MyListItemsView.swift in Sources */,
+				D8DCCFDC2BE1F0460011FC7D /* MyListItem.swift in Sources */,
 				D8DCCFD42BDE04500011FC7D /* DueDate.swift in Sources */,
 				D8019CE72BD6FDC8009F4C80 /* MyListViewModel.swift in Sources */,
 				D8DCCFCE2BDDFB9E0011FC7D /* MyListItemsHeaderView.swift in Sources */,
