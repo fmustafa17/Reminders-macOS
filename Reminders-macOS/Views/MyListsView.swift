@@ -29,7 +29,9 @@ struct MyListsView: View {
                             color: myList.color
                         )
                         
-                        MyListItemsView()
+                        MyListItemsView(onItemAdded: { title, dueDate in
+                            
+                        })
                     } label : {
                         HStack {
                             Image(systemName: "line.3.horizontal.circle.fill")

@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct MyListItemsView: View {
+    /// Pass this to the parent
+    typealias ItemAdded = ((String, Date?) -> Void)?
+    
+    var onItemAdded: ItemAdded
+    
+    init(onItemAdded: ItemAdded = nil) {
+        self.onItemAdded = onItemAdded
+    }
+
     var body: some View {
         VStack(alignment: .leading) {
             List(1...10, id: \.self) { index in
@@ -15,7 +24,9 @@ struct MyListItemsView: View {
             }
             
         }
-        AddNewListItemView()
+        AddNewListItemView { title, dueDate in
+            onItemAdded?(title, dueDate)
+        }
     }
 }
 
